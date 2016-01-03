@@ -1,0 +1,20 @@
+{
+	"name": "torrentPi",
+	"version": "0.0.1",
+	"description": "stream torrents on pi",
+	"keywords": [
+		"raspberrypi"
+	],
+	"license": "MIT",
+	"author": "bretth18",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"kat-api-ce": "0.0.4",
+		"express": "14.3.3",
+		"peerflix": "0.32.2"
+	}
+}
