@@ -2,13 +2,13 @@ var express = require('express');
 var app = express();
 var kat = require('kat-api-ce');
 var searchQuery;
-var google = require('./imagecall.js');
+var google = require('./public/imagecall.js');
 var sys = require('util')
 var exec = require('child_process').exec;
 var title;
 
 app.get('/', function (req, res) {
-	res.sendFile('index.html', {root: __dirname })
+	res.sendFile('index.html', {root: './public' })
 });
 app.get('/search/:torrentID', function(req, res) {
 searchQuery = req.params.torrentID;
