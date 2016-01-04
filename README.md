@@ -1,3 +1,4 @@
+[![ghit.me](https://ghit.me/badge.svg?repo=bretth18/torrentPi)](https://ghit.me/repo/bretth18/torrentPi)
 # torrentPi
 >client for streaming torrents on pi
 >>built with nodejs, express, peerflix
