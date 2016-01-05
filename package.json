@@ -14,7 +14,7 @@
 	},
 	"dependencies": {
 		"kat-api-ce": "0.0.4",
-		"express": "14.3.3",
+		"express": ">= 1.2.0",
 		"peerflix": "0.32.2"
 	}
 }
