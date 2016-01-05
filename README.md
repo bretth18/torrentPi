@@ -12,6 +12,7 @@
 ##requirements
 - VLC Player: ```sudo apt-get install vlc```
 - nodejs, npm
+- a raspberry pi
 
 
 
